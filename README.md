@@ -3,6 +3,12 @@ This is a mouse driver for Windows 3.x with VirtualBox mouse integration support
 I have tested it with Windows 3.0 in real and 386 enhanced modes,  Windows 3.11 in 386 enhanced mode
 with paging on, as well as Windows 95 (Windows 9x can use 16-bit mouse drivers).
 
+**Note**: if you also use DOS programs, you may be more interested in my other approach:
+[VBADOS](https://git.javispedro.com/cgit/vbados.git/about/), a DOS mouse driver
+and a stub driver for 3.x which calls into the DOS driver.
+It actually has more features and partially works with VMware, however VBADOS is a more
+complicated design so I'm leaving this older approach here for reference.
+
 # Install
 
 Download [vbmouse.flp](https://depot.javispedro.com/vbox/vbmouse1.flp)
